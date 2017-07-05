@@ -1,0 +1,59 @@
+body {
+	font-family: Helvetica;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+
+a { text-decoration: none; }
+a {color: white;}
+a{text-shadow: 2px 2px #000000;}
+a:hover { text-decoration: underline; }
+
+li { list-style: none; }
+
+
+}
+
+.container {
+	width: 780px;  
+	background: #FFFFFF;
+	margin: 0 auto; 
+	border: 1px solid #000000;
+	text-align: left;
+}
+.mainContent {
+	padding: 0 20px; 
+	color: #FFFFFF;
+	font-family: Helvetica;
+	background-image:url("images/dine.jpeg");
+	
+}
+.title{
+	color: #1C0000;
+	padding: 1px;
+	background-image:url("images/wood.jpg")
+}
+
+.inspo{
+	padding: 25px;
+	column-count: 3;
+	column-gap: 10px;
+	column-rule-style: solid;
+	column-rule-color: grey;
+	column-rule-width: 1px;
+	column-fill: auto;
+	column-width: 300px;
+}
+
+.link{
+	text-shadow: none;
+	color: #B982BC;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 45px;	
+	text-shadow: 2px 2px #B5FBFF;
+}
